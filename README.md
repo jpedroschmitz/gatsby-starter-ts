@@ -16,7 +16,7 @@
 
 A TypeScript starter for Gatsby. No plugins and styling. Exactly the necessary to start 🔥
 
-No plugins installed, great for advanced users. With these tools and features:
+No plugins installed, great for advanced users.
 
 - 📏 **ESLint** — Pluggable JavaScript linter
 - 💖 **Prettier** - Opinionated Code Formatter
@@ -24,7 +24,7 @@ No plugins installed, great for advanced users. With these tools and features:
 - 📄 **Commitizen** - Conventional commit messages CLI
 - 🚓 **Commitlint** - Lint commit messages
 - 🚫 **lint-staged** - Run linters against staged git files
-- 🗂 **Root import** - Import folder and files using `@` prefix.
+- 🗂 **Root import** - Import folders and files using the `@` prefix.
 
 ## 🚀 Getting started
 
