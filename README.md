@@ -14,7 +14,7 @@
 
 <br>
 
-A clean TypeScript starter for Gatsby that includes all you need to build amazing projects 🔥
+A TypeScript starter for Gatsby. No plugins and styling. Exactly the necessary to start 🔥
 
 No plugins installed, great for advanced users. With these tools and features:
 
