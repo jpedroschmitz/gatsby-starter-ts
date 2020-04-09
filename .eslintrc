@@ -1,44 +1,35 @@
 {
-  "parserOptions": {
-    "ecmaVersion": 2019,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
-  "plugins": ["import", "jsx-a11y", "react", "react-hooks", "prettier"],
-  "extends": ["airbnb", "eslint-config-prettier", "prettier/react"],
   "env": {
     "browser": true,
-    "jest": true,
-    "node": true
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2019,
+    "sourceType": "module"
   },
   "globals": {
-    "cy": true,
-    "Cypress": true
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
   },
+  "plugins": ["react", "react-hooks", "jsx-a11y", "prettier"],
+  "extends": ["plugin:react/recommended", "airbnb", "prettier/react"],
   "rules": {
-    "no-underscore-dangle": "off",
     "prettier/prettier": "error",
-    "react/jsx-filename-extension": "off",
     "import/prefer-default-export": "off",
     "react/prop-types": "off",
-    "arrow-body-style": "off",
-    "react/forbid-prop-types": "off",
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "off",
-    "react/require-default-props": "off",
+    "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
-    "react/prefer-stateless-function": "off",
     "import/extensions": [
       "error",
-      "always",
+      "ignorePackages",
       {
         "ts": "never",
         "tsx": "never",
         "js": "never",
-        "jsx": "never",
-        "mdx": "never"
+        "jsx": "never"
       }
     ]
   },
