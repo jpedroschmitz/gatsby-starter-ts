@@ -33,6 +33,7 @@
     ]
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "gatsby": "^2.20.14",
     "gatsby-plugin-typescript": "^2.3.1",
     "react": "^16.13.1",
