@@ -6,8 +6,10 @@ import Title from '@/components/Title';
 const Home: React.FC<PageProps> = () => (
   <main>
     <Title />
+    <p>A TypeScript starter for Gatsby. Great for advanced users.</p>
     <p>
-      This is a nice TypeScript starter for Gatsby, great for advanced users!
+      Follow me on Twitter (
+      <a href="https://twitter.com/jpedroschmitz">@jpedroschmitz</a>)
     </p>
   </main>
 );
