@@ -32,7 +32,7 @@ No plugins installed, great for advanced users.
 The best way to start with this template is using the Gatsby CLI.
 
 ```
-gatsby new starter-ts https://github.com/jpedroschmitz/gatsby-starter-ts
+npx gatsby new starter-ts https://github.com/jpedroschmitz/gatsby-starter-ts
 ```
 
 If you prefer you can clone this repository and run the following commands inside the project folder:
