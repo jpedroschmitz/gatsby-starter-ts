@@ -23,6 +23,7 @@ No plugins installed, great for advanced users.
 - 🐶 **Husky** — Use git hooks with ease
 - 📄 **Commitizen** - Conventional commit messages CLI
 - 🚓 **Commitlint** - Lint commit messages
+- 🖌 **Renovate** - Dependency update tool
 - 🚫 **lint-staged** - Run linters against staged git files
 - 🗂 **Root import** - Import folders and files using the `@` prefix.
 
