@@ -36,7 +36,7 @@
     "gatsby": "2.24.63",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "tsconfig-paths-webpack-plugin": "3.2.0"
+    "tsconfig-paths-webpack-plugin": "3.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
