@@ -33,7 +33,7 @@
     ]
   },
   "dependencies": {
-    "gatsby": "2.24.63",
+    "gatsby": "2.25.4",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "tsconfig-paths-webpack-plugin": "3.3.0"
