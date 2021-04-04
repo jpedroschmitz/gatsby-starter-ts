@@ -27,7 +27,7 @@
     ]
   },
   "dependencies": {
-    "gatsby": "3.1.2",
+    "gatsby": "3.2.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "tsconfig-paths-webpack-plugin": "3.5.1"
