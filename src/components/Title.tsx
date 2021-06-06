@@ -1,5 +1,5 @@
 import React from 'react';
-import { BaseComponentProps } from '@/types/base-component';
+import { BaseComponentProps } from '@/types';
 
 export interface TitleProps extends BaseComponentProps {
   testId?: string;
