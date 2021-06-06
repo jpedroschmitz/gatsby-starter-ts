@@ -1,7 +1,9 @@
 {
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "node": true,
+    "jest": true
   },
   "parserOptions": {
     "ecmaFeatures": {
@@ -14,9 +16,11 @@
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
   },
-  "plugins": ["react", "react-hooks", "jsx-a11y", "prettier"],
-  "extends": ["plugin:react/recommended", "airbnb", "prettier"],
+  "plugins": ["react", "react-hooks", "jsx-a11y", "prettier", "jest"],
+  "extends": ["plugin:react/recommended", "airbnb", "prettier", "plugin:jest/recommended", "plugin:jest/style"],
   "rules": {
+    "jest/prefer-strict-equal": "error",
+    "jest/prefer-to-have-length": "warn",
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
     "react/prop-types": "off",
@@ -52,13 +56,16 @@
         "@typescript-eslint/no-var-requires": "off",
         "no-use-before-define": [0],
         "@typescript-eslint/no-use-before-define": [1],
+        "import/no-unresolved": 0,
+        "quotes": "off",
         "@typescript-eslint/quotes": [
           2,
           "backtick",
           {
             "avoidEscape": true
           }
-        ]
+        ],
+        "@typescript-eslint/no-unused-vars": [2, { "argsIgnorePattern": "^_" }]
       }
     }
   ],
