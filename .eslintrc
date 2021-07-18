@@ -26,6 +26,17 @@
     "react/prop-types": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
+    "import/no-extraneous-dependencies": [
+      "error", 
+      {
+        "devDependencies": [
+          "**/*.test.[jt]s", 
+          "**/*.spec.[jt]s",
+          "**/*.test.[jt]sx", 
+          "**/*.spec.[jt]sx"
+        ]
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -57,6 +68,17 @@
         "no-use-before-define": [0],
         "@typescript-eslint/no-use-before-define": [1],
         "import/no-unresolved": 0,
+        "import/no-extraneous-dependencies": [
+          "error", 
+          {
+            "devDependencies": [
+              "**/*.test.ts", 
+              "**/*.spec.ts",
+              "**/*.test.tsx", 
+              "**/*.spec.tsx"
+            ]
+          }
+        ],
         "quotes": "off",
         "@typescript-eslint/quotes": [
           2,
