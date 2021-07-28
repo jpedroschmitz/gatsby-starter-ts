@@ -44,7 +44,7 @@
     "@typescript-eslint/eslint-plugin": "4.28.3",
     "@typescript-eslint/parser": "4.28.3",
     "@testing-library/dom": "7.31.2",
-    "@testing-library/jest-dom": "5.13.0",
+    "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "11.2.7",
     "@testing-library/react-hooks": "7.0.1",
     "@types/jest": "26.0.23",
