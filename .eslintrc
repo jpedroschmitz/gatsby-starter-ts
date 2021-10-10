@@ -17,7 +17,13 @@
     "SharedArrayBuffer": "readonly"
   },
   "plugins": ["react", "react-hooks", "jsx-a11y", "prettier", "jest"],
-  "extends": ["plugin:react/recommended", "airbnb", "prettier", "plugin:jest/recommended", "plugin:jest/style"],
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier",
+    "plugin:jest/recommended",
+    "plugin:jest/style"
+  ],
   "rules": {
     "jest/prefer-strict-equal": "error",
     "jest/prefer-to-have-length": "warn",
@@ -27,12 +33,12 @@
     "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
     "import/no-extraneous-dependencies": [
-      "error", 
+      "error",
       {
         "devDependencies": [
-          "**/*.test.[jt]s", 
+          "**/*.test.[jt]s",
           "**/*.spec.[jt]s",
-          "**/*.test.[jt]sx", 
+          "**/*.test.[jt]sx",
           "**/*.spec.[jt]sx"
         ]
       }
@@ -69,12 +75,12 @@
         "@typescript-eslint/no-use-before-define": [1],
         "import/no-unresolved": 0,
         "import/no-extraneous-dependencies": [
-          "error", 
+          "error",
           {
             "devDependencies": [
-              "**/*.test.ts", 
+              "**/*.test.ts",
               "**/*.spec.ts",
-              "**/*.test.tsx", 
+              "**/*.test.tsx",
               "**/*.spec.tsx"
             ]
           }
@@ -93,11 +99,12 @@
   ],
   "settings": {
     "import/resolver": {
-      "root-import": {
-        "rootPathPrefix": "@",
-        "rootPathSuffix": "src",
-        "extensions": [".js", ".ts", ".tsx", ".jsx", ".mdx"]
+      "typescript": {
+        "project": "."
       }
+    },
+    "react": {
+      "version": "detect"
     }
   }
 }
