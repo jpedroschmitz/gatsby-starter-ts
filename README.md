@@ -38,7 +38,9 @@ npx gatsby new starter-ts https://github.com/jpedroschmitz/gatsby-starter-ts
 
 If you prefer you can clone this repository and run the following commands inside the project folder:
 
-1. `npm install` or `yarn`;
+> By default, this starter uses Yarn, but this choice is yours. If you'd like to switch to npm, delete the `yarn.lock` file, install the dependencies with `npm install`, and change the CI workflows, Husky Git hooks, and lint-staged steps to use npm commands.
+
+1. `yarn`;
 2. `yarn start`;
 
 To view the project you can open `http://localhost:8000`.
