@@ -26,6 +26,7 @@ No plugins installed, great for advanced users.
 - 🚓 **Commitlint** - Lint commit messages
 - 🖌 **Renovate** - Dependency update tool
 - 🚫 **lint-staged** - Run linters against staged git files
+- 👷 **PR Workflow** - Run Type Check & Linters on pull requests
 - 🗂 **Root import** - Import folders and files using the `@` prefix.
 
 ## 🚀 Getting started
