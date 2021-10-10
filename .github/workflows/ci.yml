@@ -30,5 +30,8 @@ jobs:
       - name: Check linting
         run: yarn lint
 
+      - name: Run tests
+        run: yarn test
+
       - name: Check commits messages
         uses: wagoid/commitlint-github-action@v4
