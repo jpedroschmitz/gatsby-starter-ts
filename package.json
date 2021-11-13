@@ -39,7 +39,7 @@
     "@babel/preset-typescript": "7.16.0",
     "@commitlint/cli": "14.1.0",
     "@commitlint/config-conventional": "14.1.0",
-    "@testing-library/dom": "8.11.0",
+    "@testing-library/dom": "8.11.1",
     "@testing-library/jest-dom": "5.15.0",
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
