@@ -1,10 +1,8 @@
 import React from 'react';
 import { BaseComponentProps } from '@/types';
 
-const Title: React.FC<BaseComponentProps> = (props) => {
+export default function Title(props: BaseComponentProps) {
   const { children } = props;
 
   return <h1>{children}</h1>;
-};
-
-export default Title;
+}
