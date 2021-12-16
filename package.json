@@ -35,8 +35,8 @@
     "tsconfig-paths-webpack-plugin": "3.5.2"
   },
   "devDependencies": {
-    "@babel/preset-react": "7.16.0",
-    "@babel/preset-typescript": "7.16.0",
+    "@babel/preset-react": "7.16.5",
+    "@babel/preset-typescript": "7.16.5",
     "@commitlint/cli": "15.0.0",
     "@commitlint/config-conventional": "15.0.0",
     "@testing-library/dom": "8.11.1",
