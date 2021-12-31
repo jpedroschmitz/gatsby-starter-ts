@@ -37,8 +37,8 @@
   "devDependencies": {
     "@babel/preset-react": "7.16.5",
     "@babel/preset-typescript": "7.16.5",
-    "@commitlint/cli": "15.0.0",
-    "@commitlint/config-conventional": "15.0.0",
+    "@commitlint/cli": "16.0.1",
+    "@commitlint/config-conventional": "16.0.0",
     "@testing-library/dom": "8.11.1",
     "@testing-library/jest-dom": "5.16.1",
     "@testing-library/react": "12.1.2",
