@@ -29,7 +29,7 @@
     ]
   },
   "dependencies": {
-    "gatsby": "4.11.2",
+    "gatsby": "4.12.1",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "tsconfig-paths-webpack-plugin": "3.5.2"
@@ -50,7 +50,7 @@
     "@typescript-eslint/eslint-plugin": "5.18.0",
     "@typescript-eslint/parser": "5.18.0",
     "babel-jest": "27.5.1",
-    "babel-preset-gatsby": "2.11.1",
+    "babel-preset-gatsby": "2.12.1",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.13.0",
