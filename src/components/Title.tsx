@@ -1,8 +1,9 @@
-import React from 'react';
-import { BaseComponentProps } from '@/types';
+import { ReactNode } from 'react';
 
-export default function Title(props: BaseComponentProps) {
-  const { children } = props;
+type TitleProps = {
+  children: ReactNode;
+};
 
+export default function Title({ children }: TitleProps) {
   return <h1>{children}</h1>;
 }
