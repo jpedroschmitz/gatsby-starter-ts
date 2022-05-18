@@ -19,10 +19,10 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: lts/*
 
       - name: Install dependencies (with cache)
-        uses: bahmutov/npm-install@HEAD
+        uses: bahmutov/npm-install@v1
 
       - name: Check types
         run: yarn type-check
