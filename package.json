@@ -29,7 +29,7 @@
     ]
   },
   "dependencies": {
-    "gatsby": "4.14.0",
+    "gatsby": "4.14.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "tsconfig-paths-webpack-plugin": "3.5.2"
