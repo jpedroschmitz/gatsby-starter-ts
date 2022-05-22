@@ -1,5 +1,12 @@
 {
   "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
   "env": {
     "browser": true,
     "es6": true,
@@ -9,6 +16,7 @@
   "plugins": ["react", "jsx-a11y", "prettier", "jest", "@typescript-eslint"],
   "extends": [
     "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:jest/recommended",
     "standard",
@@ -16,13 +24,10 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "jest/prefer-strict-equal": "error",
-    "jest/prefer-to-have-length": "warn",
-    "import/prefer-default-export": "off",
     "react/prop-types": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
-    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
@@ -47,9 +52,6 @@
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-var-requires": "off",
-    "no-use-before-define": [0],
-    "@typescript-eslint/no-use-before-define": [1],
-    "import/no-unresolved": 0,
     "quotes": "off",
     "@typescript-eslint/quotes": [
       2,
