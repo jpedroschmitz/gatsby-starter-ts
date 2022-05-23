@@ -3,7 +3,7 @@ module.exports = {
   rootDir: '.',
   globals: {
     'ts-jest': {
-      tsconfig: 'tsconfig.spec.json',
+      tsconfig: 'tsconfig.json',
     },
     __PATH_PREFIX__: ``,
     __BASE_PATH__: ``,
