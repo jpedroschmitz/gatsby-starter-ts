@@ -22,7 +22,7 @@ jobs:
           node-version: lts/*
 
       - name: Install dependencies (with cache)
-        uses: bahmutov/npm-install@v1
+        run: yarn
 
       - name: Check types
         run: yarn type-check
