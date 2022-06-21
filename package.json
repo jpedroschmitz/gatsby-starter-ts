@@ -42,7 +42,7 @@
     "@testing-library/dom": "8.13.0",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "13.2.0",
-    "@testing-library/react-hooks": "8.0.0",
+    "@testing-library/react-hooks": "8.0.1",
     "@types/jest": "27.5.2",
     "@types/node": "16.11.41",
     "@types/react": "18.0.14",
