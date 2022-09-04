@@ -51,7 +51,7 @@
     "@typescript-eslint/parser": "5.30.4",
     "babel-jest": "28.1.1",
     "babel-preset-gatsby": "2.19.0",
-    "commitizen": "4.2.4",
+    "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.20.0",
     "eslint-config-prettier": "8.5.0",
