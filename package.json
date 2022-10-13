@@ -29,7 +29,9 @@
     ]
   },
   "dependencies": {
+    "@testing-library/jest-dom": "5.16.5",
     "gatsby": "4.24.4",
+    "gatsby-plugin-pnpm": "1.2.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tsconfig-paths-webpack-plugin": "4.0.0"
@@ -40,13 +42,13 @@
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
     "@testing-library/dom": "8.19.0",
-    "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@testing-library/react-hooks": "8.0.1",
     "@types/jest": "29.1.2",
     "@types/node": "16.11.64",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "@types/testing-library__jest-dom": "5.14.5",
     "@typescript-eslint/eslint-plugin": "5.39.0",
     "@typescript-eslint/parser": "5.39.0",
     "babel-jest": "29.1.2",
