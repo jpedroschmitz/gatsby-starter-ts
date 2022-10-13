@@ -19,8 +19,7 @@
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
     "postinstall": "husky install",
-    "test": "jest",
-    "commit": "cz"
+    "test": "jest"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
@@ -53,8 +52,6 @@
     "@typescript-eslint/parser": "5.39.0",
     "babel-jest": "29.1.2",
     "babel-preset-gatsby": "2.24.0",
-    "commitizen": "4.2.5",
-    "cz-conventional-changelog": "3.3.0",
     "eslint": "8.25.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-standard": "17.0.0",
@@ -75,10 +72,5 @@
     "prettier": "2.7.1",
     "ts-jest": "29.0.3",
     "typescript": "4.8.4"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
   }
 }
