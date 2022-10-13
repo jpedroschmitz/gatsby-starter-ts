@@ -55,7 +55,7 @@ npx gatsby new starter-ts https://github.com/jpedroschmitz/gatsby-starter-ts
 To start the project locally, run:
 
 ```bash
-yarn start
+pnpm start
 ```
 
 Open `http://localhost:8000` with your browser to see the result.
@@ -65,7 +65,7 @@ Open `http://localhost:8000` with your browser to see the result.
 ### Requirements
 
 - Node.js >= 14.17
-- Yarn 1 (Classic)
+- pnpm 7
 
 ### Directory Structure
 
@@ -77,15 +77,15 @@ Open `http://localhost:8000` with your browser to see the result.
 
 ### Scripts
 
-- `yarn start` — Starts the application in development mode at `http://localhost:8000`.
-- `yarn build` — Compile your application and make it ready for deployment.
-- `yarn serve` — Serve the production build of your site
-- `yarn clean` — Wipe out the cache (`.cache` folder).
-- `yarn type-check` — Validate code using TypeScript compiler.
-- `yarn lint` — Runs ESLint for all files in the `src` directory.
-- `yarn format` — Runs Prettier for all files in the `src` directory.
-- `yarn commit` — Run commitizen. Alternative to `git commit`.
-- `yarn test` — Run tests.
+- `pnpm start` — Starts the application in development mode at `http://localhost:8000`.
+- `pnpm build` — Compile your application and make it ready for deployment.
+- `pnpm serve` — Serve the production build of your site
+- `pnpm clean` — Wipe out the cache (`.cache` folder).
+- `pnpm type-check` — Validate code using TypeScript compiler.
+- `pnpm lint` — Runs ESLint for all files in the `src` directory.
+- `pnpm format` — Runs Prettier for all files in the `src` directory.
+- `pnpm commit` — Run commitizen. Alternative to `git commit`.
+- `pnpm test` — Run tests.
 
 ### Path Mapping
 
@@ -98,9 +98,9 @@ import { Button } from '@/components/Button';
 import avatar from '@/static/avatar.png';
 ```
 
-### Switch to npm
+### Switch to Yarn/npm
 
-This starter uses Yarn 1 (Classic) by default, but this choice is yours. If you'd like to switch to npm, delete the `yarn.lock` file, install the dependencies with `npm i`, change the CI workflow, and Husky Git hooks to use npm commands.
+This starter uses pnpm by default, but this choice is yours. If you'd like to switch to Yarn/npm, delete the `pnpm-lock.yaml` file, install the dependencies with Yarn/npm, change the CI workflow, Husky Git hooks to use Yarn/npm commands, and uninstall the `gatsby-plugin-pnpm` plugin (you also need to remove it from the `gatsby-config` file).
 
 ## License
 
