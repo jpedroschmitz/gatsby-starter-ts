@@ -34,7 +34,6 @@
 - 📏 ESLint — To find and fix problems in your code
 - 💖 Prettier — Code Formatter for consistent style
 - 🐶 Husky — For running scripts before committing
-- 📄 Commitizen — To define a standard way of committing rules
 - 🚓 Commitlint — To make sure your commit messages follow the convention
 - 🖌 Renovate — To keep your dependencies up to date
 - 🚫 lint-staged — Run ESLint and Prettier against staged Git files
@@ -84,7 +83,6 @@ Open `http://localhost:8000` with your browser to see the result.
 - `pnpm type-check` — Validate code using TypeScript compiler.
 - `pnpm lint` — Runs ESLint for all files in the `src` directory.
 - `pnpm format` — Runs Prettier for all files in the `src` directory.
-- `pnpm commit` — Run commitizen. Alternative to `git commit`.
 - `pnpm test` — Run tests.
 
 ### Path Mapping
