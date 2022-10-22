@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react';
+import { it, describe, expect } from 'vitest';
 
 import Title from '@/components/Title';
 

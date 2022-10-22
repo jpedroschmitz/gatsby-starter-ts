@@ -10,15 +10,13 @@
   "env": {
     "browser": true,
     "es6": true,
-    "node": true,
-    "jest": true
+    "node": true
   },
-  "plugins": ["react", "jsx-a11y", "prettier", "jest", "@typescript-eslint"],
+  "plugins": ["react", "jsx-a11y", "prettier", "@typescript-eslint"],
   "extends": [
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
-    "plugin:jest/recommended",
     "standard",
     "plugin:prettier/recommended"
   ],
@@ -28,17 +26,6 @@
     "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": [
-          "**/*.test.[jt]s",
-          "**/*.spec.[jt]s",
-          "**/*.test.[jt]sx",
-          "**/*.spec.[jt]sx"
-        ]
-      }
-    ],
     "import/extensions": [
       "error",
       "ignorePackages",
