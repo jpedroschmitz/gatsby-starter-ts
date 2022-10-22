@@ -30,7 +30,7 @@
 - ⚡️ Gatsby 4
 - ⚛️ React 18
 - ⛑ TypeScript
-- 🐐 Tests — Jest and Testing Library out of the box
+- 🐐 Tests — Vitest and Testing Library out of the box
 - 📏 ESLint — To find and fix problems in your code
 - 💖 Prettier — Code Formatter for consistent style
 - 🐶 Husky — For running scripts before committing
@@ -83,7 +83,8 @@ Open `http://localhost:8000` with your browser to see the result.
 - `pnpm type-check` — Validate code using TypeScript compiler.
 - `pnpm lint` — Runs ESLint for all files in the `src` directory.
 - `pnpm format` — Runs Prettier for all files in the `src` directory.
-- `pnpm test` — Run tests.
+- `pnpm test` — Run tests with Vitest.
+- `pnpm test:watch` — Run tests on watch mode.
 
 ### Path Mapping
 
