@@ -27,7 +27,7 @@
 
 ## Features
 
-- ⚡️ Gatsby 4
+- ⚡️ Gatsby 5
 - ⚛️ React 18
 - ⛑ TypeScript
 - 🐐 Tests — Vitest and Testing Library out of the box
