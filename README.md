@@ -63,7 +63,7 @@ Open `http://localhost:8000` with your browser to see the result.
 
 ### Requirements
 
-- Node.js >= 14.17
+- Node.js >= 18
 - pnpm 7
 
 ### Directory Structure
