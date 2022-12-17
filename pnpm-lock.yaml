@@ -40,7 +40,7 @@ specifiers:
   react-dom: 18.2.0
   tsconfig-paths-webpack-plugin: 4.0.0
   typescript: 4.9.4
-  vite-tsconfig-paths: 4.0.2
+  vite-tsconfig-paths: 4.0.3
   vitest: 0.25.8
 
 dependencies:
@@ -85,7 +85,7 @@ devDependencies:
   lint-staged: 13.1.0
   prettier: 2.8.1
   typescript: 4.9.4
-  vite-tsconfig-paths: 4.0.2_typescript@4.9.4
+  vite-tsconfig-paths: 4.0.3_typescript@4.9.4
   vitest: 0.25.8_jsdom@20.0.3
 
 packages:
@@ -12717,8 +12717,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /vite-tsconfig-paths/4.0.2_typescript@4.9.4:
-    resolution: {integrity: sha512-UzU8zwbCQrdUkj/Z0tnh293n4ScRcjJLoS8nPme2iB2FHoU5q8rhilb7AbhLlUC1uv4t6jSzVWnENjPnyGseeQ==}
+  /vite-tsconfig-paths/4.0.3_typescript@4.9.4:
+    resolution: {integrity: sha512-gRO2Q/tOkV+9kMht5tz90+IaEKvW2zCnvwJV3tp2ruPNZOTM5rF+yXorJT4ggmAMYEaJ3nyXjx5P5jY5FwiZ+A==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
