@@ -41,7 +41,7 @@ specifiers:
   tsconfig-paths-webpack-plugin: 4.0.0
   typescript: 4.9.4
   vite-tsconfig-paths: 4.0.3
-  vitest: 0.26.0
+  vitest: 0.26.1
 
 dependencies:
   gatsby: 5.3.2_4cviwvu75bx62oh4wh733jixp4
@@ -86,7 +86,7 @@ devDependencies:
   prettier: 2.8.1
   typescript: 4.9.4
   vite-tsconfig-paths: 4.0.3_typescript@4.9.4
-  vitest: 0.26.0_jsdom@20.0.3
+  vitest: 0.26.1_jsdom@20.0.3
 
 packages:
 
@@ -12748,8 +12748,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /vite-node/0.26.0:
-    resolution: {integrity: sha512-nLtHWCv6reONl1oFsKhQ/LT7n3UNLpvVARAJlmGrQV6qSElht/9AdN41Pa+WSkw2Winh682UzM0Yw0GNlfqejw==}
+  /vite-node/0.26.1:
+    resolution: {integrity: sha512-5FJSKZZJz48zFRKHE55WyevZe61hLMQEsqGn+ungfd60kxEztFybZ3yG9ToGFtOWNCCy7Vn5EVuXD8bdeHOSdw==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     dependencies:
@@ -12807,8 +12807,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.26.0_jsdom@20.0.3:
-    resolution: {integrity: sha512-5kUnms5WOa0qrDCJePEPB13v9mhr+ZT1Qy0qNg0eVj1X7/Fx4GY4L1e5s3OH+BQ/J7M5WtaKsUGv9l1pbC7v2Q==}
+  /vitest/0.26.1_jsdom@20.0.3:
+    resolution: {integrity: sha512-qTLRnjYmjmJpHlLUtErxtlRqGCe8WItFhGXKklpWivu7CLP9KXN9iTezROe+vf51Kb+BB/fzxK6fUG9DvFGL5Q==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -12844,7 +12844,7 @@ packages:
       tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 3.1.8
-      vite-node: 0.26.0
+      vite-node: 0.26.1
     transitivePeerDependencies:
       - less
       - sass
