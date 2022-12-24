@@ -29,7 +29,7 @@ specifiers:
   eslint-plugin-promise: 6.1.1
   eslint-plugin-react: 7.31.11
   eslint-plugin-react-hooks: 4.6.0
-  gatsby: 5.3.2
+  gatsby: 5.3.3
   gatsby-plugin-pnpm: 1.2.10
   husky: 8.0.2
   identity-obj-proxy: 3.0.0
@@ -44,8 +44,8 @@ specifiers:
   vitest: 0.26.1
 
 dependencies:
-  gatsby: 5.3.2_4cviwvu75bx62oh4wh733jixp4
-  gatsby-plugin-pnpm: 1.2.10_gatsby@5.3.2
+  gatsby: 5.3.3_4cviwvu75bx62oh4wh733jixp4
+  gatsby-plugin-pnpm: 1.2.10_gatsby@5.3.3
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   tsconfig-paths-webpack-plugin: 4.0.0
@@ -4787,7 +4787,7 @@ packages:
       - supports-color
     dev: false
 
-  /babel-plugin-remove-graphql-queries/5.3.1_sauac2ybmytjezonb5tueq2vfi:
+  /babel-plugin-remove-graphql-queries/5.3.1_mgeb2ha3puvi3u42vjxku7czjy:
     resolution: {integrity: sha512-hZ3oD3chJPdjxoClO1hgNYtBF/92VDT2XkoPSC7vsA+tqrNU1KH49EOHIhvCSgFxWOq/aF9Dmeu/YFAbsvrgJw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -4797,7 +4797,7 @@ packages:
       '@babel/core': 7.20.5
       '@babel/runtime': 7.18.9
       '@babel/types': 7.20.5
-      gatsby: 5.3.2_4cviwvu75bx62oh4wh733jixp4
+      gatsby: 5.3.3_4cviwvu75bx62oh4wh733jixp4
       gatsby-core-utils: 4.3.1
     dev: false
 
@@ -7710,7 +7710,7 @@ packages:
       gatsby-telemetry: 4.3.1
       hosted-git-info: 3.0.8
       is-valid-path: 0.1.1
-      joi: 17.6.0
+      joi: 17.7.0
       lodash: 4.17.21
       node-fetch: 2.6.7
       opentracing: 0.14.7
@@ -7813,7 +7813,7 @@ packages:
       '@parcel/transformer-json': 2.8.1_@parcel+core@2.8.1
     dev: false
 
-  /gatsby-plugin-page-creator/5.3.1_es3dempfwzbrmcddeoic2l7isy:
+  /gatsby-plugin-page-creator/5.3.1_ht5tfar2srmvkay3al4iymgf5a:
     resolution: {integrity: sha512-kWZVnU5iu1Pi41cYrepWgTgj6dbq+b9OQJWYo9vjJROBcSTzlX3pqBdeAtx+ATB7dMCocdNTNWpDPSYVJfK5Fw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -7825,10 +7825,10 @@ packages:
       chokidar: 3.5.3
       fs-exists-cached: 1.0.0
       fs-extra: 10.1.0
-      gatsby: 5.3.2_4cviwvu75bx62oh4wh733jixp4
+      gatsby: 5.3.3_4cviwvu75bx62oh4wh733jixp4
       gatsby-core-utils: 4.3.1
       gatsby-page-utils: 3.3.1
-      gatsby-plugin-utils: 4.3.1_es3dempfwzbrmcddeoic2l7isy
+      gatsby-plugin-utils: 4.3.1_ht5tfar2srmvkay3al4iymgf5a
       gatsby-telemetry: 4.3.1
       globby: 11.1.0
       lodash: 4.17.21
@@ -7838,17 +7838,17 @@ packages:
       - supports-color
     dev: false
 
-  /gatsby-plugin-pnpm/1.2.10_gatsby@5.3.2:
+  /gatsby-plugin-pnpm/1.2.10_gatsby@5.3.3:
     resolution: {integrity: sha512-29xjIakNEUY42OBb3wI9Thmawr5EcUUOB3dB8nE51yr/TfKQFCREk+HAOATQHTNedG3VZhgU4wVjl2V3wgOXJA==}
     peerDependencies:
       gatsby: ~2.x.x || ~3.x.x || ~4.x.x
     dependencies:
-      gatsby: 5.3.2_4cviwvu75bx62oh4wh733jixp4
+      gatsby: 5.3.3_4cviwvu75bx62oh4wh733jixp4
       lodash.get: 4.4.2
       lodash.uniq: 4.5.0
     dev: false
 
-  /gatsby-plugin-typescript/5.3.1_gatsby@5.3.2:
+  /gatsby-plugin-typescript/5.3.1_gatsby@5.3.3:
     resolution: {integrity: sha512-I8JDjraWIauNq7wwiHTcXfmX4HBZhxy2haBrQ+WEB+IAYNfBmMOmdFkehT1dCE3uleS9ra0LCyFYn0BfibX9tg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -7860,13 +7860,13 @@ packages:
       '@babel/plugin-proposal-optional-chaining': 7.17.12_@babel+core@7.20.5
       '@babel/preset-typescript': 7.18.6_@babel+core@7.20.5
       '@babel/runtime': 7.18.9
-      babel-plugin-remove-graphql-queries: 5.3.1_sauac2ybmytjezonb5tueq2vfi
-      gatsby: 5.3.2_4cviwvu75bx62oh4wh733jixp4
+      babel-plugin-remove-graphql-queries: 5.3.1_mgeb2ha3puvi3u42vjxku7czjy
+      gatsby: 5.3.3_4cviwvu75bx62oh4wh733jixp4
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /gatsby-plugin-utils/4.3.1_es3dempfwzbrmcddeoic2l7isy:
+  /gatsby-plugin-utils/4.3.1_ht5tfar2srmvkay3al4iymgf5a:
     resolution: {integrity: sha512-9bR6/zEg8uUMqVW7+X58WfBj9JC6AZqi0Q4nZbK2aB2/SY4R+qloWi8Vc+4f0ja4Djc/OtMzo+dtJBhZvWMwTg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -7876,7 +7876,7 @@ packages:
       '@babel/runtime': 7.18.9
       fastq: 1.13.0
       fs-extra: 10.1.0
-      gatsby: 5.3.2_4cviwvu75bx62oh4wh733jixp4
+      gatsby: 5.3.3_4cviwvu75bx62oh4wh733jixp4
       gatsby-core-utils: 4.3.1
       gatsby-sharp: 1.3.0
       graphql: 16.6.0
@@ -7955,8 +7955,8 @@ packages:
       - supports-color
     dev: false
 
-  /gatsby/5.3.2_4cviwvu75bx62oh4wh733jixp4:
-    resolution: {integrity: sha512-zBhh76mALss4500DTZiIqhAxw3rEvzTyGgt1hButVHzn/AQLvPoV15zGeJFX+4UfDhBT22iqar/PliZDGgB0CA==}
+  /gatsby/5.3.3_4cviwvu75bx62oh4wh733jixp4:
+    resolution: {integrity: sha512-YKQAmm6X6I5Dx8CsCbrJpFFQo+LwGtosUSq6oSB2GxoH6HfOYjczxCMcvNVUOPJDId49YHuxG9ryykBPgWDR1w==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     requiresBuild: true
@@ -8002,7 +8002,7 @@ packages:
       babel-plugin-add-module-exports: 1.0.4
       babel-plugin-dynamic-import-node: 2.3.3
       babel-plugin-lodash: 3.3.4
-      babel-plugin-remove-graphql-queries: 5.3.1_sauac2ybmytjezonb5tueq2vfi
+      babel-plugin-remove-graphql-queries: 5.3.1_mgeb2ha3puvi3u42vjxku7czjy
       babel-preset-gatsby: 3.3.1_hpu3apc5c6djwtnejb7nbmbfn4
       better-opn: 2.1.1
       bluebird: 3.7.2
@@ -8051,9 +8051,9 @@ packages:
       gatsby-link: 5.3.1_y2kppt6lrltqk6wasg3eswwzsa
       gatsby-page-utils: 3.3.1
       gatsby-parcel-config: 1.3.1_@parcel+core@2.8.1
-      gatsby-plugin-page-creator: 5.3.1_es3dempfwzbrmcddeoic2l7isy
-      gatsby-plugin-typescript: 5.3.1_gatsby@5.3.2
-      gatsby-plugin-utils: 4.3.1_es3dempfwzbrmcddeoic2l7isy
+      gatsby-plugin-page-creator: 5.3.1_ht5tfar2srmvkay3al4iymgf5a
+      gatsby-plugin-typescript: 5.3.1_gatsby@5.3.3
+      gatsby-plugin-utils: 4.3.1_ht5tfar2srmvkay3al4iymgf5a
       gatsby-react-router-scroll: 6.3.0_y2kppt6lrltqk6wasg3eswwzsa
       gatsby-script: 2.3.0_y2kppt6lrltqk6wasg3eswwzsa
       gatsby-telemetry: 4.3.1
@@ -8069,7 +8069,7 @@ packages:
       invariant: 2.2.4
       is-relative: 1.0.0
       is-relative-url: 3.0.0
-      joi: 17.6.0
+      joi: 17.7.0
       json-loader: 0.5.7
       latest-version: 7.0.0
       lmdb: 2.5.3
@@ -9074,16 +9074,6 @@ packages:
       '@types/node': 18.11.16
       merge-stream: 2.0.0
       supports-color: 8.1.1
-    dev: false
-
-  /joi/17.6.0:
-    resolution: {integrity: sha512-OX5dG6DTbcr/kbMFj0KGYxuew69HPcAE3K/sZpEV2nP6e/j/C0HV+HNiBPCASxdx5T7DMoa0s8UeHWMnb6n2zw==}
-    dependencies:
-      '@hapi/hoek': 9.3.0
-      '@hapi/topo': 5.1.0
-      '@sideway/address': 4.1.4
-      '@sideway/formula': 3.0.0
-      '@sideway/pinpoint': 2.0.0
     dev: false
 
   /joi/17.7.0:
