@@ -5,7 +5,7 @@ specifiers:
   '@babel/preset-typescript': 7.18.6
   '@commitlint/cli': 17.4.2
   '@commitlint/config-conventional': 17.4.2
-  '@testing-library/dom': 8.19.0
+  '@testing-library/dom': 8.19.1
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0
   '@testing-library/react-hooks': 8.0.1
@@ -55,7 +55,7 @@ devDependencies:
   '@babel/preset-typescript': 7.18.6
   '@commitlint/cli': 17.4.2
   '@commitlint/config-conventional': 17.4.2
-  '@testing-library/dom': 8.19.0
+  '@testing-library/dom': 8.19.1
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/react-hooks': 8.0.1_ib3m5ricvtkl2cll7qpr2f6lvq
@@ -3983,13 +3983,13 @@ packages:
       defer-to-connect: 2.0.1
     dev: false
 
-  /@testing-library/dom/8.19.0:
-    resolution: {integrity: sha512-6YWYPPpxG3e/xOo6HIWwB/58HukkwIVTOaZ0VwdMVjhRUX/01E4FtQbck9GazOOj7MXHc5RBzMrU86iBJHbI+A==}
+  /@testing-library/dom/8.19.1:
+    resolution: {integrity: sha512-P6iIPyYQ+qH8CvGauAqanhVnjrnRe0IZFSYCeGkSRW9q3u8bdVn2NPI+lasFyVsEQn1J/IFmp5Aax41+dAP9wg==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.18.6
       '@babel/runtime': 7.18.9
-      '@types/aria-query': 4.2.2
+      '@types/aria-query': 5.0.1
       aria-query: 5.0.0
       chalk: 4.1.2
       dom-accessibility-api: 0.5.14
@@ -4043,7 +4043,7 @@ packages:
       react-dom: ^18.0.0
     dependencies:
       '@babel/runtime': 7.18.9
-      '@testing-library/dom': 8.19.0
+      '@testing-library/dom': 8.19.1
       '@types/react-dom': 18.0.10
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -4091,8 +4091,8 @@ packages:
     resolution: {integrity: sha512-qLOvfmlG2vCVw5fo/oz8WAZYlpe5a5OurgTj3diIxJCdjRHpapC+vQCz3er9LV79Vcat+DifBjeAhOAdmndtDQ==}
     dev: false
 
-  /@types/aria-query/4.2.2:
-    resolution: {integrity: sha512-HnYpAE1Y6kRyKM/XkEuiRQhTHvkzMBurTHnpFLYLBGPIylZNPs9jJcuOOYWxPLJCSEtmZT0Y8rHDokKN7rRTig==}
+  /@types/aria-query/5.0.1:
+    resolution: {integrity: sha512-XTIieEY+gvJ39ChLcB4If5zHtPxt3Syj5rgZR+e1ctpmK8NjPf0zFqsz4JpLJT0xla9GFDKjy8Cpu331nrmE1Q==}
     dev: true
 
   /@types/cacheable-request/6.0.2:
