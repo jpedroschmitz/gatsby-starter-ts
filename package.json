@@ -32,7 +32,7 @@
     ]
   },
   "dependencies": {
-    "gatsby": "5.3.3",
+    "gatsby": "5.4.1",
     "gatsby-plugin-pnpm": "1.2.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -54,7 +54,7 @@
     "@typescript-eslint/eslint-plugin": "5.47.0",
     "@typescript-eslint/parser": "5.47.0",
     "@vitejs/plugin-react": "3.0.1",
-    "babel-preset-gatsby": "3.3.1",
+    "babel-preset-gatsby": "3.4.0",
     "c8": "7.12.0",
     "eslint": "8.30.0",
     "eslint-config-prettier": "8.6.0",
