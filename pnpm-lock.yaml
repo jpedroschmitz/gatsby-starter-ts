@@ -24,7 +24,7 @@ specifiers:
   eslint-import-resolver-typescript: 3.5.3
   eslint-plugin-import: 2.26.0
   eslint-plugin-jsx-a11y: 6.7.1
-  eslint-plugin-n: 15.6.0
+  eslint-plugin-n: 15.6.1
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-promise: 6.1.1
   eslint-plugin-react: 7.32.0
@@ -70,11 +70,11 @@ devDependencies:
   c8: 7.12.0
   eslint: 8.30.0
   eslint-config-prettier: 8.6.0_eslint@8.30.0
-  eslint-config-standard: 17.0.0_snpl5wgzq3nl6iwyoqvj6sxsdi
+  eslint-config-standard: 17.0.0_bdcrn6xmt4gzw7vnrxwhbmoneu
   eslint-import-resolver-typescript: 3.5.3_2lbwmhbr7bncddqbzzpg77o75m
   eslint-plugin-import: 2.26.0_z42zbsafksklpyiu7qq7zh5m5q
   eslint-plugin-jsx-a11y: 6.7.1_eslint@8.30.0
-  eslint-plugin-n: 15.6.0_eslint@8.30.0
+  eslint-plugin-n: 15.6.1_eslint@8.30.0
   eslint-plugin-prettier: 4.2.1_c3fm3zmfczn27zda3v2v26ewci
   eslint-plugin-promise: 6.1.1_eslint@8.30.0
   eslint-plugin-react: 7.32.0_eslint@8.30.0
@@ -6864,7 +6864,7 @@ packages:
       typescript: 4.9.4
     dev: false
 
-  /eslint-config-standard/17.0.0_snpl5wgzq3nl6iwyoqvj6sxsdi:
+  /eslint-config-standard/17.0.0_bdcrn6xmt4gzw7vnrxwhbmoneu:
     resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
     peerDependencies:
       eslint: ^8.0.1
@@ -6874,7 +6874,7 @@ packages:
     dependencies:
       eslint: 8.30.0
       eslint-plugin-import: 2.26.0_z42zbsafksklpyiu7qq7zh5m5q
-      eslint-plugin-n: 15.6.0_eslint@8.30.0
+      eslint-plugin-n: 15.6.1_eslint@8.30.0
       eslint-plugin-promise: 6.1.1_eslint@8.30.0
     dev: true
 
@@ -7091,8 +7091,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-n/15.6.0_eslint@8.30.0:
-    resolution: {integrity: sha512-Hd/F7wz4Mj44Jp0H6Jtty13NcE69GNTY0rVlgTIj1XBnGGVI6UTdDrpE6vqu3AHo07bygq/N+7OH/lgz1emUJw==}
+  /eslint-plugin-n/15.6.1_eslint@8.30.0:
+    resolution: {integrity: sha512-R9xw9OtCRxxaxaszTQmQAlPgM+RdGjaL1akWuY/Fv9fRAi8Wj4CUKc6iYVG8QNRjRuo8/BqVYIpfqberJUEacA==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       eslint: '>=7.0.0'
