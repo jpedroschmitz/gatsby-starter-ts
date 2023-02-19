@@ -5,7 +5,7 @@ specifiers:
   '@babel/preset-typescript': 7.18.6
   '@commitlint/cli': 17.4.3
   '@commitlint/config-conventional': 17.4.3
-  '@testing-library/dom': 8.20.0
+  '@testing-library/dom': 9.0.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0
   '@testing-library/react-hooks': 8.0.1
@@ -55,7 +55,7 @@ devDependencies:
   '@babel/preset-typescript': 7.18.6
   '@commitlint/cli': 17.4.3
   '@commitlint/config-conventional': 17.4.3
-  '@testing-library/dom': 8.20.0
+  '@testing-library/dom': 9.0.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/react-hooks': 8.0.1_zula6vjvt3wdocc4mwcxqa6nzi
@@ -3686,7 +3686,21 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/runtime': 7.20.7
+      '@babel/runtime': 7.20.13
+      '@types/aria-query': 5.0.1
+      aria-query: 5.1.3
+      chalk: 4.1.2
+      dom-accessibility-api: 0.5.14
+      lz-string: 1.4.4
+      pretty-format: 27.5.1
+    dev: true
+
+  /@testing-library/dom/9.0.0:
+    resolution: {integrity: sha512-+/TLgKNFsYUshOY/zXsQOk+PlFQK+eyJ9T13IDVNJEi+M+Un7xlJK+FZKkbGSnf0+7E1G6PlDhkSYQ/GFiruBQ==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@babel/code-frame': 7.18.6
+      '@babel/runtime': 7.20.13
       '@types/aria-query': 5.0.1
       aria-query: 5.1.3
       chalk: 4.1.2
