@@ -71,7 +71,7 @@
     "identity-obj-proxy": "3.0.0",
     "jsdom": "21.1.1",
     "lint-staged": "13.2.0",
-    "prettier": "2.8.5",
+    "prettier": "2.8.6",
     "typescript": "5.0.2",
     "vite-tsconfig-paths": "4.0.7",
     "vitest": "0.29.3"
