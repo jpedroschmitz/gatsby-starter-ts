@@ -74,6 +74,6 @@
     "prettier": "2.8.6",
     "typescript": "5.0.2",
     "vite-tsconfig-paths": "4.0.7",
-    "vitest": "0.29.4"
+    "vitest": "0.29.7"
   }
 }
