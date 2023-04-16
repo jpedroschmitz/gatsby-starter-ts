@@ -73,7 +73,7 @@
     "lint-staged": "13.2.1",
     "prettier": "2.8.7",
     "typescript": "5.0.4",
-    "vite-tsconfig-paths": "4.1.0",
+    "vite-tsconfig-paths": "4.2.0",
     "vitest": "0.30.1"
   }
 }
