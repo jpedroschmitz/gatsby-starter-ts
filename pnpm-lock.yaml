@@ -33,7 +33,7 @@ specifiers:
   gatsby-plugin-pnpm: 1.2.10
   husky: 8.0.3
   identity-obj-proxy: 3.0.0
-  jsdom: 22.0.0
+  jsdom: 22.1.0
   lint-staged: 13.2.2
   prettier: 2.8.8
   react: 18.2.0
@@ -81,12 +81,12 @@ devDependencies:
   eslint-plugin-react-hooks: 4.6.0_eslint@8.40.0
   husky: 8.0.3
   identity-obj-proxy: 3.0.0
-  jsdom: 22.0.0
+  jsdom: 22.1.0
   lint-staged: 13.2.2
   prettier: 2.8.8
   typescript: 5.0.4
   vite-tsconfig-paths: 4.2.0_typescript@5.0.4
-  vitest: 0.31.0_jsdom@22.0.0
+  vitest: 0.31.0_jsdom@22.1.0
 
 packages:
 
@@ -9508,8 +9508,8 @@ packages:
     dependencies:
       argparse: 2.0.1
 
-  /jsdom/22.0.0:
-    resolution: {integrity: sha512-p5ZTEb5h+O+iU02t0GfEjAnkdYPrQSkfuTSMkMYyIoMvUNEHsbG0bHHbfXIcfTqD2UfvjQX7mmgiFsyRwGscVw==}
+  /jsdom/22.1.0:
+    resolution: {integrity: sha512-/9AVW7xNbsBv6GfWho4TTNjEo9fe6Zhf9O7s0Fhhr3u+awPwAJMKwAMXnkk5vBxflqLW9hTHX/0cs+P3gW+cQw==}
     engines: {node: '>=16'}
     peerDependencies:
       canvas: ^2.5.0
@@ -11342,10 +11342,6 @@ packages:
       end-of-stream: 1.4.4
       once: 1.4.0
 
-  /punycode/2.1.1:
-    resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==}
-    engines: {node: '>=6'}
-
   /punycode/2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
     engines: {node: '>=6'}
@@ -12728,7 +12724,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       psl: 1.9.0
-      punycode: 2.1.1
+      punycode: 2.3.0
       universalify: 0.2.0
       url-parse: 1.5.10
     dev: true
@@ -13026,7 +13022,7 @@ packages:
   /uri-js/4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
     dependencies:
-      punycode: 2.1.1
+      punycode: 2.3.0
 
   /url-loader/4.1.1_mcjtn4hapjgzqopn45k6jybrv4:
     resolution: {integrity: sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==}
@@ -13170,7 +13166,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.31.0_jsdom@22.0.0:
+  /vitest/0.31.0_jsdom@22.1.0:
     resolution: {integrity: sha512-JwWJS9p3GU9GxkG7eBSmr4Q4x4bvVBSswaCFf1PBNHiPx00obfhHRJfgHcnI0ffn+NMlIh9QGvG75FlaIBdKGA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -13215,7 +13211,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      jsdom: 22.0.0
+      jsdom: 22.1.0
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
